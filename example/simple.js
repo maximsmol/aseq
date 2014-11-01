@@ -26,6 +26,6 @@ var d = function(arg, callback)
 	callback('callback argument');
 };
 
-var seq = new aseq(a, b, c, d);
+var seq = aseq(a, b, c, d);
 
-seq.run('additional argument');
+seq('additional argument');

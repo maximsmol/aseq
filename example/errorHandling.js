@@ -33,6 +33,6 @@ var d = function(arg, callback)
 	callback('errD', 'callback argument');
 };
 
-var seq = new aseq(a, handleErr, b, handleErr, c, handleErr, d, handleErr);
+var seq = aseq(a, handleErr, b, handleErr, c, handleErr, d, handleErr);
 
-seq.run('additional argument');
+seq('additional argument');
