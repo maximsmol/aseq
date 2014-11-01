@@ -9,10 +9,10 @@
 		"sequence",
 		"callback hell"
 	],
-	"homepage": "",
+	"homepage": "https://github.com/maximsmol/aseq",
 	"bugs":
 	{
-		"url": "",
+		"url": "https://github.com/maximsmol/aseq/issues",
 		"email": "maximsmol@gmail.com"
 	},
 	"license": "MIT",
@@ -32,7 +32,11 @@
 
 	"files":
 	[
-		"./lib/aseq.js"
+		"./lib/aseq.js",
+
+		"./example/aseqObject.js",
+		"./example/errorHandling.js",
+		"./example/simple.js"
 	],
 	"main": "./lib/aseq.js",
 	"directories":
