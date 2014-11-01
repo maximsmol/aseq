@@ -1,0 +1,11 @@
+# v0.1.3
+1. Fixed `aseq.append` thinking second argument is invalid, when `typeof == function`
+
+# v0.1.2
+1. Fixed aseq not being downloaded properly from npm
+
+# v0.1.1
+1. Made aseq not pass callback to the last function in the sequence (caused bugs)
+
+# v0.1.0
+1. Initial release
