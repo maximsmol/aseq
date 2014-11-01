@@ -1,0 +1,54 @@
+{
+	"name": "aseq",
+	"version": "0.1.0",
+	"description": "Library for creating asynchronous sequences.",
+	"keywords":
+	[
+		"async",
+		"asynchronous",
+		"sequence",
+		"callback hell"
+	],
+	"homepage": "",
+	"bugs":
+	{
+		"url": "",
+		"email": "maximsmol@gmail.com"
+	},
+	"license": "MIT",
+
+	"author":
+	{
+		"name": "Maxim Smolin",
+		"email": "maximsmol@gmail.com",
+		"url": ""
+	},
+	"contributors":
+	{
+		"name": "Maxim Smolin",
+		"email": "maximsmol@gmail.com",
+		"url": ""
+	},
+
+	"files":
+	[
+		"./lib/aseq.js"
+	],
+	"main": "./lib/aseq.js",
+	"directories":
+	{
+		"lib": "./lib/",
+		"doc": "./doc/",
+		"example": "./example/"
+	},
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/maximsmol/aseq.git"
+	},
+
+	"engines":
+	{
+		"node": "~0.10.31"
+	}
+}
