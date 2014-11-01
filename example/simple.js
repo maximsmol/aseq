@@ -20,10 +20,9 @@ var c = function(arg, callback)
 	callback('callback argument');
 };
 
-var d = function(arg, callback)
+var d = function()
 {
 	console.log(arguments);
-	callback('callback argument');
 };
 
 var seq = aseq(a, b, c, d);

@@ -1,6 +1,6 @@
 {
 	"name": "aseq",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Library for creating asynchronous sequences.",
 	"keywords":
 	[
@@ -32,8 +32,10 @@
 
 	"files":
 	[
+		"./lib/",
 		"./lib/aseq.js",
 
+		"./example/",
 		"./example/aseqObject.js",
 		"./example/errorHandling.js",
 		"./example/simple.js"

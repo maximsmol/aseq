@@ -27,10 +27,9 @@ var c = function(arg, callback)
 	callback('errC', 'callback argument');
 };
 
-var d = function(arg, callback)
+var d = function()
 {
 	console.log(arguments);
-	callback('errD', 'callback argument');
 };
 
 var seq = aseq(a, handleErr, b, handleErr, c, handleErr, d, handleErr);
