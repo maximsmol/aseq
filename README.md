@@ -76,7 +76,7 @@ seq.append(handleErrors);
 seq.append(change);
 ```
 
-## Usage
+## Basic Usage
 
 ### Aseq as Object
 
