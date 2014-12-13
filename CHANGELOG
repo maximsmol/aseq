@@ -1,4 +1,7 @@
 # v0.3.2
+1. Fixed a critical bug with sequences never ending
+
+# v0.3.2
 1. Running an empty sequence now does not throw an error
 
 # v0.3.1
