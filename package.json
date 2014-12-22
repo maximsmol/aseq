@@ -1,7 +1,8 @@
 {
 	"name": "aseq",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"description": "Library for creating asynchronous sequences.",
+
 	"keywords":
 	[
 		"async",
@@ -31,6 +32,7 @@
 	},
 
 	"main": "./lib/aseq.js",
+
 	"directories":
 	{
 		"lib": "./lib/",
@@ -42,13 +44,25 @@
 		"type": "git",
 		"url": "https://github.com/maximsmol/aseq.git"
 	},
+
+	"scripts":
+	{
+		"test": "mocha -r blanket -R html-cov > ./test/coverage.html"
+	},
+	"config":
+	{
+		"blanket":
+		{
+			"pattern": "lib",
+			"data-cover-never": "node_modules"
+		}
+	},
+
 	"devDependencies":
 	{
 		"blanket": "~1.1.6"
 	},
-
-	"engines":
-	{
+	"engines": {
 		"node": "~0.10.31"
 	}
 }
