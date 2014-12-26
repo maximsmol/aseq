@@ -1,4 +1,7 @@
 # v0.3.4
+1. Error handlers now dont fail when callback is invalid
+
+# v0.3.4
 1. Error handlers now can be used at the end of the sequence
 
 # v0.3.3
